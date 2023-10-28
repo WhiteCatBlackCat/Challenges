@@ -1,1 +1,113 @@
+In this challenge, we test your knowledge of using if-else conditional statements to automate decision-making processes. An if-else statement has the following logical flow:
 
+Wikipedia if-else flow chart
+
+Source: Wikipedia
+
+Task
+Given an integer,
+
+, perform the following conditional actions:
+
+    If 
+
+is odd, print Weird
+If
+is even and in the inclusive range of to
+, print Not Weird
+If
+is even and in the inclusive range of to
+, print Weird
+If
+is even and greater than
+
+    , print Not Weird
+
+Complete the stub code provided in your editor to print whether or not
+
+is weird.
+
+Input Format
+
+A single line containing a positive integer,
+
+.
+
+Constraints
+
+Output Format
+
+Print Weird if the number is weird; otherwise, print Not Weird.
+
+Sample Input 0
+
+3
+
+Sample Output 0
+
+Weird
+
+Sample Input 1
+
+24
+
+Sample Output 1
+
+Not Weird
+
+Explanation
+
+Sample Case 0:
+
+is odd and odd numbers are weird, so we print Weird.
+
+Sample Case 1:
+
+and is even, so it isn't weird. Thus, we print Not Weird.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*wrong
+
+if n % 2 != 0:
+    print("Weird")
+else:
+    if n in range(2, 6):
+        print("Not Weird")
+    else: n in range(6, 21):
+        print("Weird")
+    }
+}
+
+____________________________________________________________________________________________________________________________________________________________________________________
+
+You are given an integer
+
+, you have to convert it into a string.
+
+Please complete the partially completed code in the editor. If your code successfully converts
+into a string
+
+the code will print "Good job". Otherwise it will print "Wrong answer".
+
+can range between to
+
+inclusive.
+
+Sample Input 0
+
+100
+
+Sample Output 0
+
+Good job
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*wrong
+
+  if (n == 0, 100) {
+    System.out.print("Good job");
+   } else {
+    System.out.print("Wrong answer.");
+   }
+
+_________________________________________________________________________________________________________________________________________________________________________________
